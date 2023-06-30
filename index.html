@@ -6,12 +6,59 @@
     <title>Bootstrap class</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
      <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <header>
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">WebCheytanov</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
     
-</body>
-</html>
+        <!-- Hero section -->
+        <section id="home" class="hero">
+          <div class="container">
+            <h1>Welcome to Dylan Cheytanov's Game Development Portfolio</h1>
+            <p>I love playing video games and equally enjoy making them, welcome to the page :) </p>
+            <a href="projects.html" class="btn btn-primary">View Projects</a>
+          </div>
+        </section>
+      </header>
+    
+      <main>
+        <section id="centered-image" class="section">
+          <div class="container text-center">
+            <img src="Assets/IMG_8539.jpg" alt="Centered Image" class="centered-image">
+          </div>
+        </section>
+      </main>
+    
+      <footer>
+        <div class="container">
+          <p>&copy; 2023 Dylan Cheytanov. All rights reserved.</p>
+        </div>
+      </footer>
+    
+      <script src="scripts.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,144 @@
+body {
+    background-color: black; 
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+
+.navbar.bg-danger {
+    background-color: red !important;
+  }
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+#projects.section {
+    padding-top: 100px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.row.justify-content-center {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.linkedin-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: auto;
+    transform: translateX(-50%);
+    width: 50px; 
+    height: auto; 
+}
+
+.social-icons .twitter-icon {
+    margin-left: 10px;
+}
+
+.social-icons .twitter-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons .instagram-icon {
+    margin-left: 10px;
+}
+
+.social-icons .instagram-icon img {
+    width: 5px;
+    height: 5px;
+}
+
+.centered-image {
+    max-width: 100%;
+    height: auto;
+}
+  
+  
+
+
+
+  

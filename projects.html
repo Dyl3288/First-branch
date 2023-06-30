@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap class</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">WebCheytanov</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Hero section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Here you will be able to view some of my projects I have on display</h1>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Project Showcase</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="project">
+              <img src="Assets/Screenshot (10).png" alt="Project 1">
+              <h3>Testing 1234</h3>
+              <p>Testing 1234 is a short and fun experience that showcases my knowledge for animation and material manipulation.</p>
+              <a href="Zippedgames/Testing1234.zip" class="btn btn-primary" download>Download Testing1234</a>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="project">
+              <img src="Assets/Screenshot (12).png" alt="Project 3">
+              <h3>Cheddar Quest</h3>
+              <p>Cheddar Quest is a collaborative project that I worked on with two of my friends. It is a puzzle platformer with 3 working levels. It was a college project, and we are very proud of it.</p>
+              <a href="Zippedgames/MainEvidence3 Dylan,RJ,Eli.zip" class="btn btn-primary" download>Download Cheddar Quest</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Dylan Cheytanov. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
